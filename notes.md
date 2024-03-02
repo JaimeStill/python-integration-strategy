@@ -8,6 +8,18 @@
 
 3. Select `.venv\Scripts\python.exe`
 
+## VS Code Settings
+
+The following Python extension settings are helpful:
+
+```json
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true
+}
+```
+
 ## Pip Commands
 
 ```bash
